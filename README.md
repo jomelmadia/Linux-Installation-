@@ -4,4 +4,4 @@
 ### Install dependencies and config from github
 
 Just Run: 
-* ./install.sh *
+` ./install.sh `
