@@ -4,11 +4,11 @@
 
 clone_required_repository() {
   cd /home/$USER/github
-  git clone https://github.com/jomelmadia/vim_dotfile.git
-  git clone https://github.com/jomelmadia/tint2_config.git
-  git clone https://github.com/jomelmadia/for_fresh_install.git
-  git clone https://github.com/jomelmadia/tmux_config.git
-  git clone https://github.com/jomelmadia/bashrc.git
+  git clone --quiet https://github.com/jomelmadia/vim_dotfile.git
+  git clone --quiet https://github.com/jomelmadia/tint2_config.git
+  git clone --quiet https://github.com/jomelmadia/for_fresh_install.git
+  git clone --quiet https://github.com/jomelmadia/tmux_config.git
+  git clone --quiet https://github.com/jomelmadia/bashrc.git
 }
 
 if [[ -d /home/$USER/github ]]; 
