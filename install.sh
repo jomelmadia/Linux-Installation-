@@ -20,3 +20,6 @@ else
   mkdir /home/$USER/github
   clone_required_repository
 fi
+
+/home/$USER/github/for_fresh_install/install.sh
+pwd
