@@ -9,6 +9,7 @@ clone_required_repository() {
   git clone --quiet https://github.com/jomelmadia/for_fresh_install.git
   git clone --quiet https://github.com/jomelmadia/tmux_config.git
   git clone --quiet https://github.com/jomelmadia/bashrc.git
+  git clone --quiet https://github.com/jomelmadia/openbox_config.git
 }
 
 if [[ -d /home/$USER/github ]]; 
@@ -22,4 +23,5 @@ else
 fi
 
 /home/$USER/github/for_fresh_install/install.sh
+/home/$USER/github/vim_dotfile/install.sh
 pwd
