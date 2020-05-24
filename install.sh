@@ -1,6 +1,6 @@
 #!/bin/bash
 # echo 'Upadating System and Installing GIT'
-# sudo apt update && sudo apt upgrade -y && sudo apt install git
+sudo apt update && sudo apt upgrade -y && sudo apt install git
 
 clone_required_repository() {
   cd /home/$USER/github
@@ -24,4 +24,4 @@ fi
 
 /home/$USER/github/for_fresh_install/install.sh
 /home/$USER/github/vim_dotfile/install.sh
-pwd
+/home/$USER/github/openbox_config/install.sh
