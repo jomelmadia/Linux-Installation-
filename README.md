@@ -1,5 +1,4 @@
 # Linux Installation Script
-========
 
 ### Install dependencies and config from github
 
